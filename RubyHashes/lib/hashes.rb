@@ -2,6 +2,17 @@
 # Part I
 def array_2_hash emails, contacts
     # YOUR CODE HERE
+    index = 0
+    contacts.each do |contact, _unused|
+        email = emails[index]
+        if email == nil
+            contacts[contact] = ""
+        else
+            contacts[contact] = email
+        end
+        index += 1
+    end
+    return contacts
 end
 
 # Part II
