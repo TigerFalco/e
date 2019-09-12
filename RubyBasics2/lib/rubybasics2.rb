@@ -2,9 +2,12 @@
 
 # Part I
 def hello(name)
-  # YOUR CODE HERE
+  String s = "Hello, "
+  return s + name
+  
+  
+  
 end
-
 # Part II
 def starts_with_consonant? s
   # YOUR CODE HERE
